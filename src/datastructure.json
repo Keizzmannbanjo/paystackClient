@@ -1,0 +1,69 @@
+"{\"event\":\"charge.success\",\"data\":{\"id\":3817883715,\"domain\":\"test\",\"status\":\"success\",\"reference\":\"1716460363412\",\"amount\":2000000,\"message\":null,\"gateway_response\":\"Successful\",\"paid_at\":\"2024-05-23T10:33:38.000Z\",\"created_at\":\"2024-05-23T10:33:31.000Z\",\"channel\":\"card\",\"currency\":\"NGN\",\"ip_address\":\"129.205.124.196\",\"metadata\":{\"referrer\":\"http://localhost:3000/\"},\"fees_breakdown\":null,\"log\":null,\"fees\":40000,\"fees_split\":null,\"authorization\":{\"authorization_code\":\"AUTH_1b3i2q476f\",\"bin\":\"408408\",\"last4\":\"4081\",\"exp_month\":\"12\",\"exp_year\":\"2030\",\"channel\":\"card\",\"card_type\":\"visa \",\"bank\":\"TEST BANK\",\"country_code\":\"NG\",\"brand\":\"visa\",\"reusable\":true,\"signature\":\"SIG_GpqpJ6hD6VAEQt9VMzRA\",\"account_name\":null,\"receiver_bank_account_number\":null,\"receiver_bank\":null},\"customer\":{\"id\":168400419,\"first_name\":\"\",\"last_name\":\"\",\"email\":\"keizzmannbanjo@gmail.com\",\"customer_code\":\"CUS_855a02ibipo0a57\",\"phone\":\"\",\"metadata\":null,\"risk_action\":\"default\",\"international_format_phone\":null},\"plan\":{},\"subaccount\":{},\"spl..."
+
+
+
+{
+  "event": "charge.success",
+  "data": {
+    "id": 3817883715,
+    "domain": "test",
+    "status": "success",
+    "reference": "1716460363412",
+    "amount": 2000000,
+    "message": null,
+    "gateway_response": "Successful",
+    "paid_at": "2024-05-23T10:33:38Z",
+    "created_at": "2024-05-23T10:33:31Z",
+    "channel": "card",
+    "currency": "NGN",
+    "ip_address": "129.205.124.196",
+    "metadata": {
+      "referrer": "http://localhost:3000/"
+    },
+    "fees_breakdown": null,
+    "log": null,
+    "fees": 40000,
+    "fees_split": null,
+    "authorization": {
+      "authorization_code": "AUTH_1b3i2q476f",
+      "bin": "408408",
+      "last4": "4081",
+      "exp_month": "12",
+      "exp_year": "2030",
+      "channel": "card",
+      "card_type": "visa ",
+      "bank": "TEST BANK",
+      "country_code": "NG",
+      "brand": "visa",
+      "reusable": true,
+      "signature": "SIG_GpqpJ6hD6VAEQt9VMzRA",
+      "account_name": null,
+      "receiver_bank_account_number": null,
+      "receiver_bank": null
+    },
+    "customer": {
+      "id": 168400419,
+      "first_name": "",
+      "last_name": "",
+      "email": "keizzmannbanjo@gmail.com",
+      "customer_code": "CUS_855a02ibipo0a57",
+      "phone": "",
+      "metadata": null,
+      "risk_action": "default",
+      "international_format_phone": null
+    },
+    "plan": {},
+    "subaccount": {},
+    "split": {},
+    "order_id": null,
+    "paidAt": "2024-05-23T10:33:38Z",
+    "requested_amount": 2000000,
+    "pos_transaction_data": null,
+    "source": {
+      "type": "web",
+      "source": "checkout",
+      "entry_point": "request_inline",
+      "identifier": null
+    }
+  }
+}
